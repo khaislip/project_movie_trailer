@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+# Defined list of favorite movies, using the Class media
 sling_blade = media.Movie(
             "Sling Blade",
             "Karl Childers, a simple man hospitalized since his childhood\
@@ -35,5 +36,6 @@ who_is_afraid_of_virginia_woolf = media.Movie(
                                 "https://upload.wikimedia.org/wikipedia/en/7/7c/Original_movie_poster_for_the_film_Who%27s_Afraid_of_Virginia_Woolf%3F.jpg",
                                 "https://www.youtube.com/watch?v=hZEKQnMCze8")
 
+# Create a list of movies, call fresh_tomatoes to generate html, open web browser with generated html
 movies = [sling_blade, taxi_driver, apocalypse_now, who_is_afraid_of_virginia_woolf]
 fresh_tomatoes.open_movies_page(movies)
