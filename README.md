@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # entertainment_center.py
 
 [entertainment_center.py](https://github.com/khaislip/project_movie_trailer)
